@@ -37,6 +37,7 @@ print(cvs,type(cvs))
 x=10+3*2**2
 print(x)#answer should be 22 according to operator precedence
 '''
+'''
 #Question 6 swapping
 ab=5
 bc=9
@@ -45,3 +46,9 @@ temp=ab
 ab=bc
 bc=temp
 print(ab,bc)
+'''
+#question 7 temperature
+ct=input("enter temperature in a celcius scale :")
+ct=float(ct)
+ft=ct*(9/5)+32
+print("temperature in farenheit :",ft)
