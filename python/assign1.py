@@ -23,6 +23,7 @@ print(b,type(b))
 print(c,type(c))
 '''
 #question 4
+'''
 anum=input("enter a numerical string:")
 cvi=int(anum)
 cvf=float(anum)
@@ -30,3 +31,7 @@ cvs=str(anum)
 print(cvi,type(cvi))
 print(cvf,type(cvf))
 print(cvs,type(cvs))
+'''
+#quesstion evalution to question
+x=10+3*2**2
+print(x)#answer should be 22 according to operator precedence
