@@ -62,6 +62,7 @@ pi=3.1416
 Area=pi*r**2
 print(Area)
 '''
+'''
 #question calculating standard interest
 pr=input("enter the principal")
 pr=float(pr)
@@ -71,3 +72,10 @@ time=input("Enter the time")
 time=float(time)
 si=pr*rate*time
 print(si)
+'''
+#question 10 decimal number
+dec=input("enter a decimal number with floating point")
+dec=float(dec)
+nonfrac=int(dec)
+frac=dec-nonfrac
+print(nonfrac,frac)
