@@ -22,4 +22,11 @@ print(a,type(a))
 print(b,type(b))
 print(c,type(c))
 '''
-
+#question 4
+anum=input("enter a numerical string:")
+cvi=int(anum)
+cvf=float(anum)
+cvs=str(anum)
+print(cvi,type(cvi))
+print(cvf,type(cvf))
+print(cvs,type(cvs))
