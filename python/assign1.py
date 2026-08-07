@@ -32,6 +32,16 @@ print(cvi,type(cvi))
 print(cvf,type(cvf))
 print(cvs,type(cvs))
 '''
+'''
 #quesstion evalution to question
 x=10+3*2**2
 print(x)#answer should be 22 according to operator precedence
+'''
+#Question 6 swapping
+ab=5
+bc=9
+temp=None
+temp=ab
+ab=bc
+bc=temp
+print(ab,bc)
