@@ -47,8 +47,16 @@ ab=bc
 bc=temp
 print(ab,bc)
 '''
+'''
 #question 7 temperature
 ct=input("enter temperature in a celcius scale :")
 ct=float(ct)
 ft=ct*(9/5)+32
 print("temperature in farenheit :",ft)
+'''
+#question 8 Area of a circle 
+r=input("Enter the radius of the circle")
+r=float(r)
+pi=3.1416
+Area=pi*r**2
+print(Area)
