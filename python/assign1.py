@@ -55,8 +55,19 @@ ft=ct*(9/5)+32
 print("temperature in farenheit :",ft)
 '''
 #question 8 Area of a circle 
+'''
 r=input("Enter the radius of the circle")
 r=float(r)
 pi=3.1416
 Area=pi*r**2
 print(Area)
+'''
+#question calculating standard interest
+pr=input("enter the principal")
+pr=float(pr)
+rate=input("Enter the interest rate")
+rate=float(rate)
+time=input("Enter the time")
+time=float(time)
+si=pr*rate*time
+print(si)
