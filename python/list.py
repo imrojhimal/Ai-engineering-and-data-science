@@ -1,0 +1,8 @@
+marks=[10,20,1,5]
+print(marks)
+marks.append(4)
+print(marks)
+marks.insert(2,9)
+print(marks)
+marks.sort()
+print(marks)
