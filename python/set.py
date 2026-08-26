@@ -1,3 +1,11 @@
 s1={1,2,3,4,5}
 print(s1)
 s2=set()
+s2.add(4)
+s2.add(5)
+s2.add(6)
+s2.add(7)
+s2.add(8)
+s2.add(9)
+s2.add(10)
+print(s2)
