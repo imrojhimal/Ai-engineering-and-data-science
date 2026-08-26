@@ -14,5 +14,6 @@ print(s2)
 s3={4,5,6,7,8,9,10}
 s3.pop()
 print(s3)
-
+print(s1.union(s3))
+print(s3.intersection(s1))
 
