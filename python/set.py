@@ -8,4 +8,11 @@ s2.add(7)
 s2.add(8)
 s2.add(9)
 s2.add(10)
+s2.remove(10)
+s2.clear()
 print(s2)
+s3={4,5,6,7,8,9,10}
+s3.pop()
+print(s3)
+
+
