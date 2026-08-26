@@ -5,3 +5,6 @@ s=set()
 for val in range(len(info)):
     s.add(info[val][1])
 print(s)
+for name,course in info:
+    if(course=='sci'):
+        print(name)
