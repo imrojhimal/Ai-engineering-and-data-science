@@ -16,3 +16,4 @@ for name,course in info:
     else:
         dict[name].add(course)
 print(dict)
+print(dict.keys())
