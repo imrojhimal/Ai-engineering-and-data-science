@@ -6,4 +6,9 @@ class teacher(Employee):
     def __init__(self,sub):
         self.subject=sub
 t1=teacher("Physics")
-print(t1.subject,t1.start)
+print(t1.subject,t1.start,t1.salary)
+class admin(Employee):
+    def __init__(self,role):
+       self.role=role
+a=admin("Lab assistant")
+print(a.role,a.start,a.end)
