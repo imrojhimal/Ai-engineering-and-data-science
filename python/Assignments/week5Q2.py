@@ -1,8 +1,9 @@
 class Book:
     title="Homomorphology"
     author="Imroj Ahasan Himal"
+    def __init__(self):
+         self.reviews=[]
     def addReviews(self,new):
-        self.reviews=[]
         self.reviews.append(new)
         self.count=len(self.reviews)
     def counter(self):
