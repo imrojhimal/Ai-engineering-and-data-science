@@ -1,3 +1,4 @@
 f=open("python/File IO/simple.txt","w")
 data=f.write("hi this Iis imroj ahasan himal")
-print(data)
+print(type(data))
+f.close()
